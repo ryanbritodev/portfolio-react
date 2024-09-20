@@ -11,7 +11,7 @@ function Nav() {
                 <h1 className="text-4xl font-bold text-fiap">RB</h1>
             </div>
             <div className="navbar-end">
-                <ul className="menu menu-horizontal text-2xl text-white px-1 space-x-4">
+                <ul className="menu menu-horizontal flex-nowrap text-2xl text-white px-10 space-x-4">
                     <li>
                         <Link to="/" className="flex items-center space-x-2">
                             <img src={HomeIcon} alt="Home Icon" className="w-6 h-6"/>
