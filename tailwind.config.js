@@ -11,6 +11,9 @@ export default {
       fontFamily: {
         montserrat: ['Montserrat', 'sans-serif'],
       },
+      colors: {
+        'fiap': '#E4336C'
+      },
     },
   },
   plugins: [
