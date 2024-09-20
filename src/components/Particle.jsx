@@ -122,7 +122,7 @@ function Particle() {
         "retina_detect": true,
         "background": {
             "color":"#2D2D2D",
-            "image": "",
+            "image":  "linear-gradient(to bottom, #000000, #E4336C 320%)",
             "position": "50% 50%",
             "repeat": "no-repeat",
             "size": "cover"
