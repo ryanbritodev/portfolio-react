@@ -1,4 +1,5 @@
 import daisyui from 'daisyui';
+import scrollbar from 'tailwind-scrollbar'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -14,12 +15,16 @@ export default {
       },
       colors: {
         'fiap': '#E4336C',
-        'footer': '#0a0416'
+        'footer': '#100307'
       },
+      screens: {
+        'md': '795px',
+        'large': '1440px',
+      }
     },
   },
   plugins: [
-    daisyui
+    daisyui,
+    scrollbar
   ],
 }
-

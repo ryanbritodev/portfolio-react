@@ -2,7 +2,7 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
   return (
-    <div className="text-fiap font-krona text-4xl">
+    <div className="text-fiap font-krona">
       <Typewriter
         options={{
           strings: [
