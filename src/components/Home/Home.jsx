@@ -46,7 +46,7 @@ function Home() {
             </div>
         </section>
 
-        <section className="flex flex-col justify-center p-10 text-white mb-5 max-w-screen-lg mx-auto">
+        <section className="flex flex-col justify-center p-10 text-white mb-5 max-w-screen-2xl mx-auto">
             <h1 className="font-krona text-white text-xl text-center mb-3 text:text-3xl">
                 Minhas <strong className="flex text-fiap justify-center">CONTRIBUIÇÕES</strong>
             </h1>
