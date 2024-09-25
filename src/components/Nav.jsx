@@ -46,7 +46,7 @@ const Nav = () => {
 
         {/* Navegação */}
         <ul
-          className={`md:flex md:items-center md:pb-0 px-2 pb-12 absolute md:static bg-fiap md:bg-transparent md:z-auto z-[1000] left-0 w-full md:w-auto transition-all duration-500 ease-in-out ${
+          className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-fiap md:bg-transparent md:z-auto z-[1000] left-0 w-full md:w-auto transition-all duration-500 ease-in-out ${
             open ? "top-[6.7rem] opacity-100" : "top-[-490px] opacity-0"
           } md:opacity-100 md:top-0`}
         >
