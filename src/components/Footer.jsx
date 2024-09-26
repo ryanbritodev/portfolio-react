@@ -3,7 +3,7 @@ import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 
 function Footer() {
     return (
-    <footer className="flex flex-col items-center mt-20 bg-zinc-50 text-center text-surface dark:bg-black dark:text-white">
+    <footer className="flex flex-col items-center mt-20 text-center text-surface bg-black text-white">
     <div className="container pt-4">
         <div className="flex justify-center space-x-2">
         <a
