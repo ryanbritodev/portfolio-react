@@ -1,12 +1,14 @@
-function Projects() {
-    return (
-        <section>
-            <h1>Meus Projetos</h1>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-        </section>
-    );
-}
+import ProjectsGrid from './ProjectGrid';
+import { ProjectsProvider } from './ProjectContext';
+
+const Projects = () => {
+	return (
+		<ProjectsProvider>
+			<div className="container mx-auto">
+				<ProjectsGrid />
+			</div>
+		</ProjectsProvider>
+	);
+};
 
 export default Projects;

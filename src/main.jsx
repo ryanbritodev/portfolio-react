@@ -8,6 +8,7 @@ import Home from './components/Home/Home.jsx'
 import Projects from './components/Projects/Projects.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import Error404 from './components/error404.jsx'
+import OneProject from './components/Projects/OneProject.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
       {index:true, element: <Home/>},
       {path: "/sobre", element: <About/>},
       {path: "/projetos", element: <Projects/>},
+      {path: "/projetos/single-project", element: <OneProject/>},
       {path: "/contato", element: <Contact/>},
       {path: "*", element: <Error404/>}
     ]

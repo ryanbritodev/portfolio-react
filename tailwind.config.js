@@ -21,6 +21,7 @@ export default {
         'md': '795px',
         'large': '1440px',
         'text': '500px',
+        'mobile': '640px',
       }
     },
   },
