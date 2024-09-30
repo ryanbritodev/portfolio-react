@@ -24,8 +24,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen max-w-5xl mx-auto mt-36 lg:mt-56 md:mt-52">
-        <div className="text-center mb-32">
+    <div className="min-h-screen max-w-5xl mx-auto mt-48 lg:mt-56 md:mt-52">
+        <div className="text-center mb-20 md:mb-32">
         <h1 className="font-krona font-semibold text-white text-3xl mb-5 px-3">
           ONDE ME ENCONTRAR
         </h1>
