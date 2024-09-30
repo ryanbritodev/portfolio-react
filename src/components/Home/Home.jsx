@@ -29,16 +29,16 @@ function Home() {
             <div className="text-xl w-full md:w-1/2">
                 <h1 className="text-xl text-center font-krona mb-10 text:text-2xl md:text-3xl">UM POUCO MAIS <span className="text-fiap">SOBRE MIM</span></h1>
                 <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-2xl text-justify">
-                    Nascido e criado em <span className="text-fiap font-bold">Santo André/SP</span>, tenho 19 anos e atuo como Estagiário de TI e Estudante de Engenharia de Software na <span className="text-fiap font-bold">FIAP.</span>
+                    Desde que comecei a programar, <span className="text-fiap font-bold"> me apaixonei pelo universo da tecnolgia </span> e estou sempre aprendendo coisas novas, ou pelo menos tentando... 😅
                 </p>
                 <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-2xl text-justify">
-                    Atualmente estou no <span className="text-fiap font-bold">2° semestre</span> e sempre busco aprender e aprimorar minhas habilidades no Mundo da <span className="text-fiap font-bold">tecnologia.</span>
+                    Atualmente estou aprendendo um pouco mais sobre <span className="text-fiap font-bold">Python, React JS e C++. 💪🏻</span>
                 </p>
                 <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-2xl text-justify">
-                    Um dos meus maiores interesses é o <span className="text-fiap font-bold">Desenvolvimento de Sistemas IoT (Internet of Things)</span>, pois acredito que essa tecnologia pode transformar o modo como interagimos com o mundo à nossa volta.
+                    Um dos meus maiores interesses é o <span className="text-fiap font-bold">Desenvolvimento de Sistemas IoT (Internet of Things)</span>, pois acredito que essa tecnologia pode transformar o modo como interagimos com o mundo à nossa volta. 💡
                 </p>
                 <p className="font-montserrat font-medium text-sm md:text-md lg:text-2xl text-justify">
-                    Além da <span className="text-fiap font-bold">programação</span>, adoro ouvir <span className="text-fiap font-bold">rock</span> e <span className="text-fiap font-bold">jogar videogame</span> nas horas vagas, o que sempre me inspira a ser criativo e focado nos projetos que estou desenvolvendo.
+                    Além da <span className="text-fiap font-bold">programação</span>, adoro ouvir <span className="text-fiap font-bold">rock</span> e <span className="text-fiap font-bold">jogar videogame</span> nas horas vagas, o que sempre me inspira a ser criativo e focado nos projetos que estou desenvolvendo. 🤟🏻
                 </p>
             </div>
             <div className="flex justify-end mt-10 md:mt-0 md:w-1/2 pl-6">
