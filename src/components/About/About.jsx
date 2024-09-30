@@ -49,9 +49,8 @@ const About = () => {
                 }}
               >
                 <h2 className="font-bold font-krona text-white text-center text-2xl md:text-4xl md:text-left mb-10">
-                  Sou um
                   <span className="text-fiap"> Estudante de Engenharia de Software</span> apaixonado por
-                  <span className="text-fiap"> Tecnologia.</span>
+                  <span className="text-fiap"> Tecnologia</span>
                 </h2>
               </motion.div>
             </div>
@@ -104,7 +103,7 @@ const About = () => {
             <img
               src={RyanCode}
               alt="Ryan codando"
-              className="w-96 max-w-screen-xl md:w-2/4 lg:w-1/2"
+              className="w-96 max-w-screen-xl"
             />
           </motion.div>
           <div className="text-bold text-white text-3xl mt-10">
