@@ -18,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: '/sobre', element: <About /> },
-      { path: '/projetos', element: <Projects projects={ProjectData.ProjectHeader} projectImages={ProjectData.ProjectImages} /> }, // Props
+      { path: '/projetos', element: <Projects projects={ProjectData.ProjectHeader} projectImages={ProjectData.ProjectImages} /> }, // Passagem dos Props
       { path: '/projetos/:projectId', element: <ProjectDetails /> },
       { path: '/contato', element: <Contact /> },
       { path: '*', element: <Error404 /> }
