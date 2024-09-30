@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm install --force",
+    "build": "npm install --legacy-peer-deps && next build",
     "lint": "eslint .",
     "preview": "vite preview"
+  },
+  "installConfig": {
+  "legacy-peer-deps": true
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
