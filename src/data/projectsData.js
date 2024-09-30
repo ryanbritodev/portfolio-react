@@ -243,7 +243,7 @@ export const ProjectData = {
 			{
 				id: 4,
 				details:
-					'Este projeto desenvolvido como parte da entrega para o Checkpoint 2 de Web Development na FIAP se consiste na criação de Portfólio online completo e responsivo, utilizando React e Tailwind CSS. O projeto inclui um menu, uma apresentação pessoal, uma seção de projetos detalhados com rotas dinâmicas, um formulário de contato. Um repositório no GithHub foi desenvolvido para gerenciar o código e a plataforma Vercel para hospedar o site. A experiência de desenvolver este projeto me permitiu consolidar meus conhecimentos em React e aprimorar minhas habilidades em design responsivo.',
+					'Este projeto desenvolvido como parte da entrega para o Checkpoint 2 de Web Development na FIAP se consiste na criação de Portfólio online completo e responsivo, utilizando React e Tailwind CSS. O projeto inclui um menu, uma apresentação pessoal, uma seção de projetos detalhados com rotas dinâmicas e um formulário de contato. Um repositório no GithHub foi desenvolvido para gerenciar o código e a plataforma Vercel para hospedar o site. A experiência de desenvolver este projeto me permitiu consolidar meus conhecimentos em React e aprimorar minhas habilidades em design responsivo.',
 			},
 			{
 				id: 5,

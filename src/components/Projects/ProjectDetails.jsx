@@ -15,20 +15,22 @@ const ProjectDetails = () => {
   }
 
   return (
-    <section className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">{project.title}</h1>
+    <section className="container mx-auto mt-36 px-10 md:px-12 lg:px-20">
+      <h1 className="text-4xl font-bold font-krona text-fiap text-center mb-6">{project.title}</h1>
 
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Projeto</h2>
-        <p className="text-gray-700">{ProjectData.ProjectInfo.ObjectivesHeading.find(p => p.id === parseInt(projectId))?.objective}</p>
+        <h2 className="text-3xl text-fiap font-krona font-semibold mb-2">Projeto</h2>
+        <p className="text-xl text-white font-medium font-montserrat">
+          {ProjectData.ProjectInfo.ObjectivesHeading.find(p => p.id === parseInt(projectId))?.objective}
+        </p>
       </div>
 
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Tecnologias Utilizadas</h2>
-        <div className="flex flex-wrap gap-4">
+        <h2 className="text-2xl font-krona text-fiap font-semibold mb-2">Tecnologias Utilizadas</h2>
+        <div className="flex text-xl flex-wrap font-medium text-white font-montserrat gap-4">
           {projectTechs.techs.map((tech, index) => (
             <div key={index} className="flex items-center gap-2">
-              {React.createElement(projectTechs.icons[index], { size: 24 })}
+              {React.createElement(projectTechs.icons[index], { size: 28 })}
               <span>{tech}</span>
             </div>
           ))}
@@ -36,26 +38,31 @@ const ProjectDetails = () => {
       </div>
 
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Descrição</h2>
-        <p className="text-gray-700">{projectDetails.details}</p>
+        <h2 className="text-2xl font-semibold font-krona text-fiap mb-2">Descrição</h2>
+        <p className="text-white font-medium text-sm text:text-xl font-montserrat text-justify">{projectDetails.details}</p>
       </div>
 
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Imagens Relacionadas</h2>
+        <h2 className="text-2xl font-krona text-fiap font-semibold mb-4">Galeria de Imagens</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <img src={projectImages.img1} alt={`${project.title} - img1`} className="w-full h-48 object-cover" />
-          <img src={projectImages.img2} alt={`${project.title} - img2`} className="w-full h-48 object-cover" />
-          <img src={projectImages.img3} alt={`${project.title} - img3`} className="w-full h-48 object-cover" />
+          <img src={projectImages.img1} alt={`${project.title} - img1`} className="w-full object-cover" />
+          <img src={projectImages.img2} alt={`${project.title} - img2`} className="w-full object-cover" />
+          <img src={projectImages.img3} alt={`${project.title} - img3`} className="w-full object-cover" />
         </div>
       </div>
 
       <div className="mb-6">
-        <h2 className="text-2xl font-semibold mb-2">Referências</h2>
-        <div className="flex gap-4">
+        <h2 className="text-2xl font-semibold text-fiap font-krona mb-2">Referências</h2>
+        <div className="flex gap-4 flex-wrap">
           {projectSocials.names.map((name, index) => (
-            <a key={index} href={projectSocials.url[index]} className="flex items-center gap-2 hover:underline text-blue-500">
-              {React.createElement(projectSocials.icon[index], { size: 24 })}
-              <span>{name}</span>
+            <a
+              key={index}
+              href={projectSocials.url[index]}
+              className="relative group flex items-center gap-2 text-white"
+            >
+              {React.createElement(projectSocials.icon[index], { size: 28 })}
+              <span className="font-montserrat font-medium text-white text-xl">{name}</span>
+              <span className="absolute bottom-[-10px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
