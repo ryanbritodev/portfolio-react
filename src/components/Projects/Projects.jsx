@@ -26,7 +26,7 @@ const Projects = ({ projects, projectImages }) => {
         <div className="relative w-full md:max-w-md">
           <input
             type="text"
-            placeholder="Pesquisar projetos por título..."
+            placeholder="Pesquisar por título..."
             maxLength={20}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
