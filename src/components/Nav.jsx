@@ -27,6 +27,10 @@ const Nav = () => {
     };
   }, []);
 
+  const closeMenu = () => {
+    setOpen(false);
+  };
+
   return (
     <div className={`shadow-md w-full fixed top-0 left-0 z-[1000] transition-all duration-300 ${isScrolled ? "backdrop-blur-lg bg-[#43091c] bg-opacity-50" : "bg-transparent"}`}>
       <div className="md:flex items-center justify-between py-9 px-12 max-w-screen-large mx-auto bg-black md:bg-opacity-50 md:bg-transparent">
@@ -36,7 +40,7 @@ const Nav = () => {
           <span className="font-krona text-fiap text-3xl font-bold">RB</span>
         </div>
 
-        {/* Botão de menu hamburguer */}
+        {/* Botão do Menu */}
         <div
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-16 top-[2.3rem] cursor-pointer md:hidden"
@@ -52,7 +56,7 @@ const Nav = () => {
         >
           {/* Itens de navegação */}
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
-            <Link to="/" className="flex flex-col items-center">
+            <Link to="/" className="flex flex-col items-center" onClick={closeMenu}>
               <img src={HomeIcon} alt="Home" className="h-6 mb-1" />
               Home
             </Link>
@@ -60,7 +64,7 @@ const Nav = () => {
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
-            <Link to="/sobre" className="flex flex-col items-center">
+            <Link to="/sobre" className="flex flex-col items-center" onClick={closeMenu}>
               <img src={SilhuetaIcon} alt="Sobre" className="h-6 mb-1" />
               Sobre
             </Link>
@@ -68,7 +72,7 @@ const Nav = () => {
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
-            <Link to="/projetos" className="flex flex-col items-center">
+            <Link to="/projetos" className="flex flex-col items-center" onClick={closeMenu}>
               <img src={CodigoIcon} alt="Projetos" className="h-6 mb-1" />
               Projetos
             </Link>
@@ -76,7 +80,7 @@ const Nav = () => {
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
-            <Link to="/contato" className="flex flex-col items-center">
+            <Link to="/contato" className="flex flex-col items-center" onClick={closeMenu}>
               <img src={ContatoIcon} alt="Contato" className="h-6 mb-1" />
               Contato
             </Link>
