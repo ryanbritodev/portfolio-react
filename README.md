@@ -93,7 +93,13 @@ Caso não, siga o passo a passo de instalação do Node.js da Alura 👇
 <br>
 [https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?srsltid=AfmBOopiIOrcWh6MtVgVvTWHUGHKmGL1DnZjAEYSebeYkIFMtvPmeXeM](https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?srsltid=AfmBOopiIOrcWh6MtVgVvTWHUGHKmGL1DnZjAEYSebeYkIFMtvPmeXeM)
 
-Primeiro, utilize o comando para inicializar o servidor local:
+Primeiro, utilize o comando `npm install` na raiz do projeto para inicializar a instalação do pacote `node_modules` baseado no `package.json`:
+
+```bash
+npm install
+```
+
+Logo em seguida, utilize o comando para inicializar o servidor local:
 
 ```bash
 npm run dev
