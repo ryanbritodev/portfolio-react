@@ -7,10 +7,10 @@ import './index.css'
 function App() {
   return (
     <div>
-    <Particle/>
-    <Nav/>
-    <Outlet/>
-    <Footer/>
+      <Particle />
+      <Nav />
+      <Outlet />
+      <Footer />
     </div>
   )
 }
