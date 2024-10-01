@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "npm install --legacy-peer-deps && next build",
+    "postinstall": "npm install --legacy-peer-deps",
     "lint": "eslint .",
     "preview": "vite preview"
   },
