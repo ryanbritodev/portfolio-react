@@ -105,22 +105,15 @@ Abra o seu [http://localhost:](http://localhost:) no navegador de preferência e
 
 Você pode começar a editar os componetes localizados no diretório `..\src\components\Home\Home.jsx` e você poderá ver os elementos sendo alterados em tempo real. A página irá atualizar automaticamente e mostrar os novos dados.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+As [Rotas](https://github.com/remix-run/react-router) para todas as seções do Portfólio podem ser acessadas no diretório  `..\src\main.jsx`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Saiba mais
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Para aprender um pouco mais sobre o React JS, leia a documentação oficial:
 
-### Learn More
+- [Site Oficial do React](https://react.dev/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-### Deploy on Vercel
+### Deploy na Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
