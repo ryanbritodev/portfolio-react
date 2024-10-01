@@ -8,7 +8,7 @@ import Home from './components/Home/Home.jsx';
 import Projects from './components/Projects/Projects.jsx';
 import ProjectDetails from './components/Projects/ProjectDetails.jsx';
 import Contact from './components/Contact/Contact.jsx';
-import Error404 from './components/error404.jsx';
+import Error404 from './components/Error404.jsx';
 import { ProjectData } from './data/projectsData';
 
 const router = createBrowserRouter([
