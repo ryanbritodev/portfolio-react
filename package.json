@@ -12,6 +12,10 @@
   "installConfig": {
   "legacy-peer-deps": true
   },
+  "resolutions": {
+  "react": "17.0.2",
+  "react-dom": "17.0.2"
+  },
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
     "framer-motion": "^11.7.0",
