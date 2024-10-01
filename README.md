@@ -105,7 +105,7 @@ Abra o seu [http://localhost:](http://localhost:) no navegador de preferência e
 
 Você pode começar a editar os componetes localizados no diretório `..\src\components\Home\Home.jsx` e você poderá ver os elementos sendo alterados em tempo real. A página irá atualizar automaticamente e mostrar os novos dados.
 
-As [Rotas](https://github.com/remix-run/react-router) para todas as seções do Portfólio podem ser acessadas no diretório  `..\src\main.jsx`
+As [rotas](https://github.com/remix-run/react-router) para todas as seções do Portfólio podem ser acessadas no diretório  `..\src\main.jsx`
 
 ### Saiba mais
 
