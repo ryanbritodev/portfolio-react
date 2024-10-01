@@ -21,7 +21,8 @@ const router = createBrowserRouter([
       { path: '/projetos', element: <Projects projects={ProjectData.ProjectHeader} projectImages={ProjectData.ProjectImages} /> }, // Passagem dos Props
       { path: '/projetos/:projectId', element: <ProjectDetails /> },
       { path: '/contato', element: <Contact /> },
-      { path: '*', element: <Error404 /> }
+      { path: '*', element: <Error404 /> },
+      { path: '/erro404', element: <Error404 /> }
     ]
   }
 ]);
