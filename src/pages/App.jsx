@@ -1,6 +1,6 @@
-import Footer from './src/components/Footer'
-import Nav from './src/components/Nav'
-import Particle from './src/components/Particle'
+import Footer from '../components/Footer'
+import Nav from '../components/Nav'
+import Particle from '../components/Particle'
 import { Outlet } from 'react-router-dom'
 import './index.css'
 
