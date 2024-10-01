@@ -2,7 +2,7 @@ import Footer from '../src/components/Footer'
 import Nav from '../src/components/Nav'
 import Particle from '../src/components/Particle'
 import { Outlet } from 'react-router-dom'
-import './index.css'
+import '../src/index.css'
 
 function App() {
   return (
