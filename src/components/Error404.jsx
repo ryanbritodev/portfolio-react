@@ -8,7 +8,7 @@ function Error404() {
           <h1 className="mb-4 text-7xl tracking-tight text-fiap font-krona font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">
             Erro 404
           </h1>
-          <p className="mb-4 text-3xl tracking-tight font-bold text-montserrat text-white md:text-4xl">
+          <p className="mb-4 text-3xl tracking-tight font-semibold font-montserrat text-white md:text-4xl">
             Você parece perdido!
           </p>
           <p className="mb-8 text-lg font-medium text-white font-montserrat">

@@ -11,7 +11,7 @@ const ProjectDetails = () => {
   const projectSocials = ProjectData.ProjectInfo.SocialSharing.find(p => p.id === parseInt(projectId));
 
   if (!project) {
-    return <div className='font-krona md:text-4xl text-center p-10 text-2xl mb-[65rem] mt-60 md:mt-20 items-center md:p-56 md:mb-[50rem] lg:p-96 lg:mb-[40rem] text-fiap'>Projeto não encontrado ☹️</div>;
+    return <div className='font-krona md:text-4xl text-center p-10 text-2xl mb-[65rem] mt-60 md:mt-20 items-center md:p-56 md:mb-[50rem] lg:p-96 lg:mb-[40rem] text-white'>Projeto <span className='text-fiap uppercase'>não</span> encontrado ☹️</div>;
   }
 
   return (
