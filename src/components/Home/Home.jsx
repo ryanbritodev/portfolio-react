@@ -7,7 +7,7 @@ import Github from "./GitHub";
 function Home() {
     return (
         <>
-        <header className="flex flex-col w-full items-center mt-28 py-10 px-7 md:flex-row md:justify-between md:px-20 md:mt-44 lg:px-44 max-w-screen-2xl mx-auto">
+        <header className="flex flex-col w-full items-center mt-28 py-10 px-7 md:flex-row md:justify-between md:px-20 md:mt-48 lg:px-44 max-w-screen-2xl mx-auto">
             <div className="flex flex-col text-start text-white justify-center items-center w-full md:items-start">
                 <div className="flex items-center space-x-3">
                     <h1 className="text-4xl text-start font-krona text:text-[2.4rem] md:text-4xl">Olá!</h1>
