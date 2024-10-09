@@ -12,7 +12,7 @@ function Github() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 530) {
-        setFontSize(7.9); 
+        setFontSize(7.8); 
       } else {
         setFontSize(16);
       }
