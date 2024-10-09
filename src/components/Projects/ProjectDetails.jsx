@@ -39,7 +39,7 @@ const ProjectDetails = () => {
 
       <div className="mb-6">
         <h2 className="text-2xl font-semibold font-krona text-fiap mb-2">Descrição</h2>
-        <p className="text-white font-medium text-sm text:text-xl font-montserrat text-justify">{projectDetails.details}</p>
+        <p className="text-white font-medium text-sm text:text-xl font-montserrat text-justify leading-tight">{projectDetails.details}</p>
       </div>
 
       <div className="mb-6">

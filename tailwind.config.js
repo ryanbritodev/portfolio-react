@@ -18,6 +18,7 @@ export default {
       },
       screens: {
         'md': '795px',
+        'big': "850px",
         'large': '1440px',
         'text': '500px',
         'mobile': '640px',

@@ -11,10 +11,10 @@ function Github() {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth < 425) {
-        setFontSize(7); 
+      if (window.innerWidth < 530) {
+        setFontSize(7.9); 
       } else {
-        setFontSize(12);
+        setFontSize(16);
       }
     };
 
@@ -32,6 +32,9 @@ function Github() {
         fontSize={fontSize} 
         theme={temaFiap} 
         username="ryanbritodev" 
+        year={new Date().getFullYear()}
+        errorMessage="Erro ao carregar o Calendário de Contribuições do GitHub"
+        loadingDataText="Carregando..."
       />
     </div>
   );

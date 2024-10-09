@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="min-h-screen lg:px-1">
       <div className="flex flex-col justify-between md:pt-40 pt-28">
-        <div className="flex flex-col px-10 mt-10">
+        <div className="flex flex-col px-10 mt-16">
           <div className="flex flex-col items-center md:flex-row max-w-screen-xl mx-auto">
             <div className="md:px-8">
               <motion.div
@@ -48,7 +48,7 @@ const About = () => {
                   },
                 }}
               >
-                <h2 className="font-bold font-krona text-white text-center text-2xl md:text-4xl md:text-left mb-10">
+                <h2 className="font-bold font-krona text-white text-center text-2xl md:text-4xl md:text-left mb-10 leading-tight">
                   <span className="text-fiap"> Estudante de Engenharia de Software</span> apaixonado por
                   <span className="text-fiap"> Tecnologia</span>
                 </h2>
@@ -71,13 +71,13 @@ const About = () => {
                 },
               }}
             >
-              <p className="text-justify text-white text-lg lg:text-xl font-montserrat font-medium mb-5 flex-wrap">
+              <p className="text-justify text-white text-lg lg:text-xl font-montserrat font-medium mb-5 flex-wrap leading-tight">
                 Atualmente, sou bacharelando em <span className="text-fiap font-bold">Engenharia de Software (2/8) na FIAP.</span> Aqui, vivo uma jornada repleta de empolgação e dedicação para aprender mais sobre o <span className="text-fiap font-bold">mundo da tecnologia.</span>
               </p>
-              <p className="text-justify text-white text-lg lg:text-xl font-medium font-montserrat mb-5 flex-wrap">
+              <p className="text-justify text-white text-lg lg:text-xl font-medium font-montserrat mb-5 flex-wrap leading-tight">
                 Além disso, atuo como <span className="text-fiap font-bold">Estagiário de TI na FIAP</span>, oferecendo suporte técnico e contribuindo para a melhoria da infraestrutura tecnológica da instituição.
               </p>
-              <p className="text-justify text-white text-lg lg:text-xl font-montserrat font-medium mb-5 flex-wrap">
+              <p className="text-justify text-white text-lg lg:text-xl font-montserrat font-medium mb-5 flex-wrap leading-tight">
                 Fora do ambiente acadêmico e profissional, gosto de <span className="text-fiap font-bold">explorar novas tecnologias</span>, <span className="text-fiap font-bold">desenvolver projetos desafiadores</span> e me manter atualizado com as <span className="text-fiap font-bold">últimas tendências</span> do mercado de tecnologia.
               </p>
             </motion.div>
@@ -98,7 +98,7 @@ const About = () => {
                 },
               },
             }}
-            className="flex justify-center mt-10"
+            className="flex justify-center mt-14"
           >
             <img
               src={RyanCode}
