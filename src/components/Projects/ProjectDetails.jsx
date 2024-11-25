@@ -23,7 +23,7 @@ const ProjectDetails = () => {
 
   return (
     <section className="container mx-auto mt-36 px-10 md:px-12 lg:px-20 relative">
-      <h1 className="flex flex-col md:flex-row  justify-center items-center text-4xl font-bold font-krona text-fiap mb-6">
+      <h1 className="flex flex-col md:flex-row  justify-center items-center text-3xl font-bold font-krona text-fiap mb-6">
         {/* Container para a seta à esquerda */}
         <div className="left">
           <Link to="/projetos">
