@@ -19,21 +19,26 @@ import Python from '../assets/img/projects/Python-Guanabara.png';
 import Python1 from '../assets/img/projects/Python_1.png';
 import Python2 from '../assets/img/projects/Python_2.png';
 import Python3 from '../assets/img/projects/Python_3.png';
-import { FaHtml5 } from "react-icons/fa";
+import SamepyEco from '../assets/img/projects/SamepyEco.png';
+import SamepyEco1 from '../assets/img/projects/SamepyEco1.jpg';
+import SamepyEco2 from '../assets/img/projects/SamepyEco2.png';
+import SamepyEco3 from '../assets/img/projects/SamepyEco3.png';
+import { FaCloud, FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiArduino, SiKeras, SiMongodb, SiPython, SiTailwindcss, SiTensorflow } from "react-icons/si";
+import { SiArduino, SiKeras, SiMongodb, SiNodedotjs, SiPython, SiTailwindcss, SiTensorflow, SiTypescript } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiEspressif } from "react-icons/si";
 import { FiFigma, FiGithub, FiGlobe, FiYoutube } from 'react-icons/fi';
+import { details } from 'framer-motion/client';
 
 export const ProjectData = {
 	ProjectHeader: [
 		{
 			id: 1,
 			title: 'E-WAY',
-			publishDate: 'Em andamento',
+			publishDate: '24 de Outubro de 2024',
 			category: 'Front-end',
 		},
 		{
@@ -57,10 +62,15 @@ export const ProjectData = {
 		{
 			id: 5,
 			title: 'Curso em Vídeo Python',
-			publishDate: 'Em andamento',
+			publishDate: '14 de Setembro de 2024',
 			category: 'Back-end',
 		},
-		
+		{
+			id: 6,
+			title: 'SamepyEco',
+			publishDate: "21 de Novembro de 2024",
+			category: 'Internet of Things (IoT)'
+		}
 	],
 	ProjectImages: [
 		{
@@ -82,6 +92,10 @@ export const ProjectData = {
 		{
 			id: 5,
 			img: Python
+		},
+		{
+			id: 6,
+			img: SamepyEco
 		}
 	],
 	ProjectRelatedImages: [
@@ -115,6 +129,12 @@ export const ProjectData = {
 			img2: Python3,
 			img3: Python2
 		},
+		{
+			id: 6,
+			img1: SamepyEco1,
+			img2: SamepyEco2,
+			img3: SamepyEco3
+		}
 	],
 	ProjectInfo: {
 		ObjectivesHeading: [
@@ -137,6 +157,10 @@ export const ProjectData = {
 			{
 				id: 5,
 				objective: "Criação de Scripts em Python"
+			},
+			{
+				id: 6,
+				objective: "Gerador Termoelétrico Sustentável"
 			}
 		],
 		Technologies: [
@@ -147,14 +171,16 @@ export const ProjectData = {
 					"CSS",
 					"React JS",
 					"Tailwind CSS",
-					"JavaScript"
+					"JavaScript",
+					"NodeJS"
 				],
 				icons: [
 					FaHtml5,
 					FaCss3Alt,
 					FaReact,
 					SiTailwindcss,
-					SiJavascript
+					SiJavascript,
+					SiNodedotjs
 				]
 			},
 			{
@@ -222,7 +248,24 @@ export const ProjectData = {
 				icons: [
 					SiPython
 				]
-			}
+			},
+			{
+				id: 6,
+				techs: [
+					"TypeScript",
+					"React JS",
+					"Tailwind",
+					"C++",
+					"ESP32"
+				],
+				icons: [
+					SiTypescript,
+					FaReact,
+					SiTailwindcss,
+					SiCplusplus,
+					SiEspressif
+				]
+			},
 		],
 		ProjectDetails: [
 			{
@@ -249,15 +292,19 @@ export const ProjectData = {
 				id: 5,
 				details: 
 					"Exercícios desenvolvidos durante o Curso em Vídeo Python, ministrado pelo professor Gustavo Guanabara. Este curso oferece uma introdução completa à programação em Python, abordando assuntos como os fundamentos da linguagem, como tipos de dados, operadores, variáveis, estruturas condicionais e entrada/saída de dados, estruturas de repetição, controle de fluxo, funções e estruturas de dados. Com uma abordagem prática e didática, os cursos são ideais para iniciantes que desejam aprender a programar em uma das linguagens mais populares do mundo."
+			},
+			{
+				id: 6,
+				details: "O SamepyEco é um gerador termoelétrico inovador desenvolvido para transformar calor desperdiçado em energia elétrica sustentável. Utilizando pastilhas de Peltier e um sistema de monitoramento integrado via ESP32, o projeto tem como objetivo oferecer uma solução acessível e eficiente para pequenos e médios agricultores, especialmente em regiões remotas. Nosso impacto: O SamepyEco é mais que uma solução tecnológica – é uma ferramenta para fomentar a sustentabilidade, reduzir emissões de CO₂ e contribuir para um futuro mais verde e equilibrado, alinhado aos Objetivos de Desenvolvimento Sustentável da ONU."
 			}
 		],
 		SocialSharingHeading: 'Referências:',
 		SocialSharing: [
 			{
 				id: 1,
-				names: ['Figma', "GitHub"],
-				icon: [FiFigma, FiGithub],
-				url: ['https://www.figma.com/design/Iz5Szq9uDnGhMbBPjBW7n0/Plataforma-Tech-Mahindra?node-id=301-253&t=7rmKzOd7NvzWtQSE-1', 'https://github.com/ulipese/eway'],
+				names: ['Figma', "GitHub", "Website"],
+				icon: [FiFigma, FiGithub, FiGlobe],
+				url: ['https://www.figma.com/design/Iz5Szq9uDnGhMbBPjBW7n0/Plataforma-Tech-Mahindra?node-id=301-253&t=7rmKzOd7NvzWtQSE-1', 'https://github.com/ulipese/eway', 'https://the-eway.vercel.app/'],
 			},
 			{
 				id: 2,
@@ -268,7 +315,7 @@ export const ProjectData = {
 			{
 				id: 3,
 				names: ['Vídeo', 'GitHub', 'ThingSpeak', "Website", "Circuito"],
-				icon: [FiYoutube, FiGithub, SiEspressif, FiGlobe, SiArduino],
+				icon: [FiYoutube, FiGithub, FaCloud, FiGlobe, SiArduino],
 				url: ['https://youtu.be/M87xPSovZtU', 'https://github.com/ryanbritodev/esp32-mahindra', 'https://thingspeak.com/channels/2642712', "https://ryanbritodev.github.io/esp32-mahindra/src/html/index.html", "https://wokwi.com/projects/407869921950393345"]
 			},
 			{
@@ -279,10 +326,16 @@ export const ProjectData = {
 			},
 			{
 				id: 5,
-				names: ['GitHub'],
-				icon: [FiGithub],
-				url: ['https://github.com/ryanbritodev/cursoemvideo'],
+				names: ['GitHub', 'Website'],
+				icon: [FiGithub, FiGlobe],
+				url: ['https://github.com/ryanbritodev/cursoemvideo', 'https://www.cursoemvideo.com/cursos/'],
 			},
+			{
+				id: 6,
+				names: ["GitHub", "Website", "Pitch", "Vídeo", "ThingSpeak", "Circuito"],
+				icon: [FiGithub, FiGlobe, FiYoutube, FiYoutube, FaCloud, SiEspressif],
+				url: ["https://github.com/ryanbritodev/samepyeco", "https://samepy-eco.vercel.app/", "https://youtu.be/r8Rkved31Ug", "https://www.youtube.com/watch?v=r6GwW2UTQUQ", 'https://thingspeak.mathworks.com/channels/2738000', 'https://wokwi.com/projects/414535310108324865']
+			}
 		],
 	},
 };
