@@ -12,7 +12,7 @@ function Github() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 530) {
-        setFontSize(7.8); 
+        setFontSize(7.6); 
       } else {
         setFontSize(16);
       }
@@ -27,7 +27,7 @@ function Github() {
   }, []);
 
   return (
-    <div>
+    <div className="flex justify-center">
       <GitHubCalendar 
         fontSize={fontSize} 
         theme={temaFiap} 
