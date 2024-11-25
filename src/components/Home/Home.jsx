@@ -38,7 +38,7 @@ function Home() {
                     Além da <span className="text-fiap font-bold">programação</span>, adoro ouvir <span className="text-fiap font-bold">indie rock</span> e <span className="text-fiap font-bold">jogar videogame</span> nas horas vagas, o que sempre me inspira a ser criativo e focado nos projetos que estou desenvolvendo. 🤟🏻
                 </p>
             </div>
-            <div className="flex justify-end mt-10 md:mt-0 md:w-1/2 pl-8">
+            <div className="flex justify-end mt-10 md:mt-0 md:w-1/2">
                 <img src={RyanProfile} alt="Foto de Perfil Ryan" className="w-72 h-auto xl:w-full md:max-w-md"/>
             </div>
         </section>
