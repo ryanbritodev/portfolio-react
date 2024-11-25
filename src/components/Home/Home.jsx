@@ -25,21 +25,21 @@ function Home() {
             </div>
         </header>
         
-        <section className="flex flex-col items-center p-8 py-24 text-white md:flex-row md:justify-between md:items-center md:px-12 md:py-36 lg:px-24 max-w-screen-2xl mx-auto">
+        <section className="flex flex-col items-center p-8 py-24 text-white md:flex-row md:justify-between md:items-center md:px-12 md:py-36 lg:px-28 max-w-screen-2xl mx-auto">
             <div className="text-xl w-full md:w-1/2">
-                <h1 className="text-xl text-center font-krona mb-10 text:text-2xl md:text-3xl">UM POUCO MAIS <span className="text-fiap">SOBRE MIM</span></h1>
-                <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-2xl text-justify leading-tight">
+                <h1 className="text-xl text-center font-krona mb-10 text:text-xl md:text-2xl">UM POUCO MAIS <span className="text-fiap">SOBRE MIM</span></h1>
+                <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-xl text-justify leading-tight">
                     Desde que comecei a programar, <span className="text-fiap font-bold"> me apaixonei pelo universo da tecnolgia </span> e estou sempre aprendendo coisas novas, ou pelo menos tentando... 😅
                 </p>
-                <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-2xl text-justify leading-tight">
+                <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-xl text-justify leading-tight">
                     Atualmente estou aprendendo um pouco mais sobre <span className="text-fiap font-bold ">Python, React JS e Tailwind CSS. 👨🏻‍💻</span>
                 </p>
-                <p className="font-montserrat font-medium text-sm md:text-md lg:text-2xl text-justify leading-tight">
+                <p className="font-montserrat font-medium text-sm md:text-md lg:text-xl text-justify leading-tight">
                     Além da <span className="text-fiap font-bold">programação</span>, adoro ouvir <span className="text-fiap font-bold">indie rock</span> e <span className="text-fiap font-bold">jogar videogame</span> nas horas vagas, o que sempre me inspira a ser criativo e focado nos projetos que estou desenvolvendo. 🤟🏻
                 </p>
             </div>
             <div className="flex justify-end mt-10 md:mt-0 md:w-1/2">
-                <img src={RyanProfile} alt="Foto de Perfil Ryan" className="w-72 h-auto xl:w-full md:max-w-md"/>
+                <img src={RyanProfile} alt="Foto de Perfil Ryan" className="w-72 h-auto xl:w-full md:max-w-sm"/>
             </div>
         </section>
 

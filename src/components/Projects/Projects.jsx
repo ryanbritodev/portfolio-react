@@ -15,7 +15,7 @@ const Projects = ({ projects, projectImages }) => {
   });
 
   return (
-    <section className="min-h-screen container mx-auto px-6 lg:px-28 py-12 mt-28">
+    <section className="min-h-screen container mx-auto px-6 lg:px-16 py-12 mt-28">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-4 font-krona text-fiap">Meus Projetos</h1>
       <h2 className="text-lg md:text-2xl font-medium text-center mb-10 font-montserrat text-white">
         Aqui estão alguns dos meus projetos mais recentes! 😁
