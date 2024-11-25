@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiFillGithub, AiOutlineWhatsApp, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Curriculo from "../../assets/svg/Curriculo.svg"
 import RyanPlanta from "../../assets/svg/Ryan-planta.svg";
 import emailjs from "@emailjs/browser";
 
@@ -59,7 +60,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen max-w-5xl mx-auto mt-48 lg:mt-64 md:mt-52">
-      <div className="text-center mb-20 md:mb-32">
+      <div className="text-center mb-20">
         <h1 className="font-krona font-semibold text-fiap text-3xl mb-5 px-3">
           ONDE ME ENCONTRAR
         </h1>
@@ -108,6 +109,17 @@ const Contact = () => {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="flex justify-center mb-20">
+        {/* Botão de download do currículo */}
+        <a
+          href="/CV Ryan LinkedIn.pdf" // Caminho relativo para o arquivo PDF na pasta public
+          download
+          className="flex items-center font-krona p-6  bg-fiap text-white rounded-md cursor-pointer hover:bg-[#c11b50] duration-200"
+        >
+          <img src={Curriculo} alt="Ícone de Currículo" className="h-6 mr-2" />
+          Baixar Currículo
+        </a>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-36">
         <div className="flex justify-center items-center lg:justify-end">
