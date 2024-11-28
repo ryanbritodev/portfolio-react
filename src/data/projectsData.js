@@ -254,7 +254,7 @@ export const ProjectData = {
 				techs: [
 					"TypeScript",
 					"React JS",
-					"Tailwind",
+					"Tailwind CSS",
 					"C++",
 					"ESP32"
 				],
