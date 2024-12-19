@@ -2,17 +2,17 @@ import { Link } from "react-router-dom";
 
 function Error404() {
   return (
-    <section className="flex items-center justify-center h-screen mt-10">
+    <section className="flex items-center justify-center h-screen mt-16">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-sm text-center">
           <h1 className="mb-4 text-7xl tracking-tight text-fiap font-krona font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500">
             Erro 404
           </h1>
           <p className="mb-4 text-3xl tracking-tight font-semibold font-montserrat text-white md:text-4xl">
-            Você parece perdido!
+            Você parece perdido! 😵‍💫
           </p>
           <p className="mb-8 text-lg font-medium text-white font-montserrat">
-            Essa página não existe, vamos te redirecionar de volta a Home.
+            Essa página <span className="text-fiap font-bold">não existe</span>, vamos te redirecionar de volta a Home.
           </p>
           <Link
             to="/"

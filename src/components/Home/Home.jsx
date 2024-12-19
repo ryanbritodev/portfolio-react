@@ -25,7 +25,7 @@ function Home() {
             </div>
         </header>
         
-        <section className="flex flex-col items-center p-8 py-24 text-white md:flex-row md:justify-between md:items-center md:px-12 md:py-36 lg:px-28 max-w-screen-2xl mx-auto">
+        <section className="flex flex-col items-center p-8 py-24 text-white md:flex-row md:justify-between md:items-center md:px-12 md:py-36 lg:px-36 max-w-screen-2xl mx-auto">
             <div className="text-xl w-full md:w-1/2">
                 <h1 className="text-xl text-center font-krona mb-10 text:text-xl md:text-2xl">UM POUCO MAIS <span className="text-fiap">SOBRE MIM</span></h1>
                 <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-xl text-justify leading-tight">
