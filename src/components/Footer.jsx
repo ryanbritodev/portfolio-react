@@ -1,4 +1,4 @@
-import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin, BsWhatsapp, BsYoutube } from "react-icons/bs";
 
 
 function Footer() {
@@ -42,6 +42,16 @@ function Footer() {
             data-twe-ripple-init>
             <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
             <BsGithub size={32} color="currentColor"/>
+            </span>
+        </a>
+
+        <a
+            href="https://www.youtube.com/@ryanbritodev"
+            type="button"
+            className="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-neutral-100 focus:outline-none focus:ring-0 dark:text-fiap dark:hover:bg-secondary-900"
+            data-twe-ripple-init>
+            <span className="mx-auto [&>svg]:h-5 [&>svg]:w-5">
+            <BsYoutube size={32} color="currentColor"/>
             </span>
         </a>
         </div>

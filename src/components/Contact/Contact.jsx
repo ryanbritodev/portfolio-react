@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiFillGithub, AiOutlineWhatsApp, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiOutlineWhatsApp, AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Curriculo from "../../assets/svg/Curriculo.svg"
 import RyanPlanta from "../../assets/svg/Ryan-planta.svg";
@@ -67,7 +67,7 @@ const Contact = () => {
         <p className="text-lg font-montserrat text-white font-medium mb-6">
           Sinta-se livre para <span className="text-fiap font-semibold">conectar</span> comigo
         </p>
-        <ul className="flex justify-center space-x-8">
+        <ul className="flex justify-center space-x-6">
           <li className="social-icons">
             <a
               href="https://github.com/ryanbritodev"
@@ -108,12 +108,22 @@ const Contact = () => {
               <AiFillInstagram />
             </a>
           </li>
+          <li className="social-icons">
+            <a
+              href="https://www.youtube.com/@ryanbritodev"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+            >
+              <AiFillYoutube />
+            </a>
+          </li>
         </ul>
       </div>
       <div className="flex justify-center mb-20">
         {/* Botão de download do currículo */}
         <a
-          href="/CV Ryan LinkedIn.pdf" // Caminho relativo para o arquivo PDF na pasta public
+          href="/CV Ryan 2025.pdf" // Caminho relativo para o arquivo PDF na pasta public
           download
           className="flex items-center font-krona p-6  bg-fiap text-white rounded-md cursor-pointer hover:bg-[#c11b50] duration-200"
         >

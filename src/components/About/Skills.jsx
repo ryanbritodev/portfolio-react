@@ -1,15 +1,17 @@
 import { motion } from "framer-motion";
-import { FaHtml5 } from "react-icons/fa";
+import { BsFeather } from "react-icons/bs";
+import { FaHtml5, FaJava } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { FaNode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { FaGithub } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { SiDell, SiFirefoxbrowser, SiGit, SiGithub, SiIntellijidea, SiPycharm, SiTailwindcss, SiWakatime, SiWindows11 } from "react-icons/si"; 
 import { SiCplusplus } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiArduino } from "react-icons/si";
 import { SiEspressif } from "react-icons/si";
+import { SlSpeech } from "react-icons/sl";
+import { VscVscode } from "react-icons/vsc";
 
 const Skills = () => {
   return (
@@ -41,8 +43,16 @@ const Skills = () => {
               Python
             </li>
             <li className=" text-xl font-bold flex justify-center items-center flex-col">
-              <FaNode size="40px" />
-              Node JS
+              <BsFeather size="40px" />
+              Tkinter
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <FaJava size="40px" />
+              Java
+            </li>
+            <li className=" text-xl font-bold flex justify-center items-center flex-col">
+              <GrMysql size="40px" />
+              MySQL
             </li>
           </ul>
 
@@ -71,7 +81,7 @@ const Skills = () => {
           </ul>
 
           <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-black p-8 rounded-2xl">
-            <span className="text-fiap font-montserrat font-bold text-2xl w-full text-center md:w-fit">Outros</span>
+            <span className="text-fiap font-montserrat font-bold text-2xl w-full text-center md:w-fit">Internet das Coisas (IoT)</span>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <SiCplusplus size="40px"/>
               C++
@@ -85,8 +95,48 @@ const Skills = () => {
               ESP32
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
-              <FaGithub size="40px" />
-              Git/GitHub
+              <SlSpeech size="40px" />
+              ThingSpeak
+            </li>
+          </ul>
+
+          <ul className="flex items-center flex-row gap-8 flex-wrap mb-2 bg-black p-8 rounded-2xl">
+            <span className="text-fiap font-montserrat font-bold text-2xl w-full text-center md:w-fit">Outros</span>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiGit size="40px" />
+              Git
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiGithub size="40px" />
+              GitHub
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiWakatime size="40px" />
+              Wakatime
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiDell size="40px" />
+              Dell G15
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiWindows11 size="40px" />
+              Windows 11
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiFirefoxbrowser size="40px" />
+              Firefox
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <VscVscode size="40px" />
+              VsCode
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiPycharm size="40px" />
+              Pycharm
+            </li>
+            <li className="text-xl font-bold flex justify-center items-center flex-col">
+              <SiIntellijidea size="40px" />
+              Intellij
             </li>
           </ul>
         </div>

@@ -51,7 +51,7 @@ const Projects = ({ projects, projectImages }) => {
       {/* Grid de Projetos */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProjects.length > 0 ? (
-          filteredProjects.map((project) => (
+          filteredProjects.slice(0).reverse().map((project) => (
             <Link
               to={`/projetos/${project.id}`}
               key={project.id}
