@@ -145,7 +145,7 @@ function Particle() {
                 "retina_detect": true,
                 "background": {
                     "color": "#2D2D2D",
-                    "image": "linear-gradient(to bottom, #000000, #E4336C 250%)",
+                    "image": "linear-gradient(to bottom, #000000, #ff6201 250%)",
                     "position": "50% 50%",
                     "repeat": "no-repeat",
                     "size": "cover"

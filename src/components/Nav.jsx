@@ -32,7 +32,7 @@ const Nav = () => {
   };
 
   return (
-    <div className={`shadow-md w-full fixed top-0 left-0 z-[1000] transition-all duration-300 ${isScrolled ? "backdrop-blur-lg bg-[#43091c] bg-opacity-50" : "bg-transparent"}`}>
+    <div className={`shadow-md w-full fixed top-0 left-0 z-[1000] transition-all duration-300 ${isScrolled ? "backdrop-blur-lg bg-[#431a00] bg-opacity-50" : "bg-transparent"}`}>
       <div className="md:flex items-center justify-between py-9 px-12 max-w-screen-large mx-auto bg-black md:bg-opacity-50 md:bg-transparent">
         {/* Logo e RB */}
         <div className="flex items-center space-x-2">
@@ -45,7 +45,7 @@ const Nav = () => {
           onClick={() => setOpen(!open)}
           className="text-3xl absolute right-16 top-[2.3rem] cursor-pointer md:hidden"
         >
-          {open ? <BsXLg size={32} color="#E4336C" /> : <BsList size={32} color="#E4336C" />}
+          {open ? <BsXLg size={32} color="#FF6201" /> : <BsList size={32} color="#FF6201" />}
         </div>
 
         {/* Navegação */}
@@ -60,7 +60,7 @@ const Nav = () => {
               <img src={HomeIcon} alt="Home" className="h-6 mb-1" />
               Home
             </Link>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#FF6201] transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
@@ -68,7 +68,7 @@ const Nav = () => {
               <img src={SilhuetaIcon} alt="Sobre" className="h-6 mb-1" />
               Sobre
             </Link>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#FF6201] transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
@@ -76,7 +76,7 @@ const Nav = () => {
               <img src={CodigoIcon} alt="Projetos" className="h-6 mb-1" />
               Projetos
             </Link>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#FF6201] transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="md:ml-8 text-xl md:my-0 my-7 text-white font-montserrat font-medium flex flex-col items-center relative group">
@@ -84,7 +84,7 @@ const Nav = () => {
               <img src={ContatoIcon} alt="Contato" className="h-6 mb-1" />
               Contato
             </Link>
-            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
+            <span className="absolute bottom-[-4px] left-0 w-0 h-[2px] bg-[#FF6201] transition-all duration-300 group-hover:w-full"></span>
           </li>
 
           <li className="flex justify-center w-full md:w-auto">

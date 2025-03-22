@@ -7,7 +7,7 @@ function Type() {
         options={{
           strings: [
             "Engenharia de Software",
-            "Desenvolvedor Maker",
+            "Ituber",
             "Tecnologia",
             "Programação"
           ],

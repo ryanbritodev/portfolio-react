@@ -73,7 +73,7 @@ const Contact = () => {
               href="https://github.com/ryanbritodev"
               target="_blank"
               rel="noreferrer"
-              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+              className="text-white text-3xl hover:text-[#FF6201] transition-all"
             >
               <AiFillGithub />
             </a>
@@ -83,7 +83,7 @@ const Contact = () => {
               href="https://wa.me/5511970656325"
               target="_blank"
               rel="noreferrer"
-              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+              className="text-white text-3xl hover:text-[#FF6201] transition-all"
             >
               <AiOutlineWhatsApp />
             </a>
@@ -93,7 +93,7 @@ const Contact = () => {
               href="https://www.linkedin.com/in/ryanbritodev/"
               target="_blank"
               rel="noreferrer"
-              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+              className="text-white text-3xl hover:text-[#FF6201] transition-all"
             >
               <FaLinkedinIn />
             </a>
@@ -103,7 +103,7 @@ const Contact = () => {
               href="https://www.instagram.com/euryanbrito"
               target="_blank"
               rel="noreferrer"
-              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+              className="text-white text-3xl hover:text-[#FF6201] transition-all"
             >
               <AiFillInstagram />
             </a>
@@ -113,7 +113,7 @@ const Contact = () => {
               href="https://www.youtube.com/@ryanbritodev"
               target="_blank"
               rel="noreferrer"
-              className="text-white text-3xl hover:text-[#c11b50] transition-all"
+              className="text-white text-3xl hover:text-[#FF6201] transition-all"
             >
               <AiFillYoutube />
             </a>
@@ -125,7 +125,7 @@ const Contact = () => {
         <a
           href="/CV Ryan 2025.pdf" // Caminho relativo para o arquivo PDF na pasta public
           download
-          className="flex items-center font-krona p-6  bg-fiap text-white rounded-md cursor-pointer hover:bg-[#c11b50] duration-200"
+          className="flex items-center font-krona p-6  bg-fiap text-white rounded-md cursor-pointer hover:bg-[#FF6201] duration-200"
         >
           <img src={Curriculo} alt="Ícone de Currículo" className="h-6 mr-2" />
           Baixar Currículo
@@ -176,7 +176,7 @@ const Contact = () => {
             <input
               type="submit"
               value="Enviar"
-              className="font-krona w-full p-3 mt-4 bg-fiap text-white rounded-md cursor-pointer hover:bg-[#c11b50] transition-all duration-200 hover:scale-105 transform focus:outline-none focus:ring-2 focus:ring-[#c11b50]"
+              className="font-krona w-full p-3 mt-4 bg-fiap text-white rounded-md cursor-pointer hover:bg-[#a8440b] transition-all duration-200 hover:scale-105 transform focus:outline-none focus:ring-2 focus:ring-[#FF6201]"
             />
           </form>
         </div>
@@ -192,7 +192,7 @@ const Contact = () => {
             <div className="flex justify-end">
               <button
                 onClick={handleOpen}
-                className="bg-fiap text-white text-sm sm:text-lg mt-4 font-krona hover:bg-[#c11b50] transition-all duration-200 hover:scale-105 transform p-2 rounded"
+                className="bg-fiap text-white text-sm sm:text-lg mt-4 font-krona hover:bg-[#a8440b] transition-all duration-200 hover:scale-105 transform p-2 rounded"
               >
                 Continuar
               </button>
@@ -211,7 +211,7 @@ const Contact = () => {
             <div className="flex justify-end">
               <button
                 onClick={handleSuccessClose} // Fecha o modal
-                className="bg-fiap text-white text-sm sm:text-lg mt-4 font-krona hover:bg-[#c11b50] transition-all duration-200 hover:scale-105 transform p-2 rounded"
+                className="bg-fiap text-white text-sm sm:text-lg mt-4 font-krona hover:bg-[#a8440b] transition-all duration-200 hover:scale-105 transform p-2 rounded"
               >
                 Fechar
               </button>

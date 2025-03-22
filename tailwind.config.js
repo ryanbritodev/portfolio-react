@@ -13,7 +13,7 @@ export default {
         krona: ['Krona One', 'sans-serif']
       },
       colors: {
-        'fiap': '#E4336C',
+        'fiap': '#ff6201',
         'footer': '#100307'
       },
       screens: {

@@ -27,7 +27,7 @@ const ProjectDetails = () => {
         {/* Container para a seta à esquerda */}
         <div className="left">
           <Link to="/projetos">
-            <FaArrowLeft color="#E4336C" size={30} />
+            <FaArrowLeft color="#FF6201" size={30} />
           </Link>
         </div>
 
@@ -80,7 +80,7 @@ const ProjectDetails = () => {
             >
               {React.createElement(projectSocials.icon[index], { size: 28 })}
               <span className="font-montserrat font-medium text-white text-xl">{name}</span>
-              <span className="absolute bottom-[-10px] left-0 w-0 h-[2px] bg-[#E4336C] transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute bottom-[-10px] left-0 w-0 h-[2px] bg-[#FF6201] transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
