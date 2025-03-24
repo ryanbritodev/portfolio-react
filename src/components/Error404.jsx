@@ -16,7 +16,7 @@ function Error404() {
           </p>
           <Link
             to="/"
-            className="inline-flex text-white bg-fiap hover:bg-[#ac204c] transition duration-300 ease-in-out font-krona focus:outline-none font-medium rounded-lg text-sm px-5 py-3 text-center"
+            className="inline-flex text-white bg-fiap hover:bg-[#a8440b] transition duration-300 ease-in-out font-krona focus:outline-none font-medium rounded-lg text-sm px-5 py-3 text-center"
           >
             Voltar para Home
           </Link>
