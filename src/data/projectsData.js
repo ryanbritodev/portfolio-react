@@ -26,7 +26,7 @@ import SamepyEco3 from '../assets/img/projects/SamepyEco3.png';
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { SiArduino, SiGooglegemini, SiKeras, SiMongodb, SiNodedotjs, SiPython, SiTailwindcss, SiTensorflow, SiTypescript } from "react-icons/si";
+import { SiArduino, SiGooglegemini, SiKeras, SiLinkedin, SiMongodb, SiNodedotjs, SiPython, SiTailwindcss, SiTensorflow, SiTypescript } from "react-icons/si";
 import { SiCplusplus } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
 import { SiEspressif } from "react-icons/si";
@@ -342,9 +342,9 @@ export const ProjectData = {
 			},
 			{
 				id: 6,
-				names: ['GitHub'],
-				icon: [FiGithub],
-				url: ['https://github.com/ryanbritodev/autolab'],
+				names: ['LinkedIn'],
+				icon: [SiLinkedin],
+				url: ['https://www.linkedin.com/posts/ryanbritodev_fiap-automaaexaeto-python-activity-7296130334331445248-u5Bf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECnV8EBUmZSBzL-vlTdVZDdDXmU5TYyO-A'],
 			}
 		],
 	},
