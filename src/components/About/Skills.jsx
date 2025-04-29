@@ -120,7 +120,7 @@ const Skills = () => {
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <SiWindows11 size="40px" />
-              Windows 11
+              Windows 10
             </li>
             <li className="text-xl font-bold flex justify-center items-center flex-col">
               <SiFirefoxbrowser size="40px" />
