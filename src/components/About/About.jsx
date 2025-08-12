@@ -72,7 +72,7 @@ const About = () => {
               }}
             >
               <p className="text-justify text-white text-lg lg:text-xl font-montserrat font-medium mb-5 flex-wrap leading-tight">
-                Atualmente, sou bacharelando em <span className="text-fiap font-bold">Engenharia de Software (3/8) na FIAP.</span> Aqui, vivo uma jornada repleta de empolgação e dedicação para aprender mais sobre o <span className="text-fiap font-bold">mundo da tecnologia.</span>
+                Atualmente, sou bacharelando em <span className="text-fiap font-bold">Engenharia de Software (4/8) na FIAP.</span> Aqui, vivo uma jornada repleta de empolgação e dedicação para aprender mais sobre o <span className="text-fiap font-bold">mundo da tecnologia.</span>
               </p>
               <p className="text-justify text-white text-lg lg:text-xl font-medium font-montserrat mb-5 flex-wrap leading-tight">
               Além disso, atuo como <span className="text-fiap font-bold">Estagiário de Dados no Itáu Unibanco</span>, atuando na squad de dados do setor de Pricing, contribuindo para a modernização e otimização dos processos de dados! 🧡
