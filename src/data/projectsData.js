@@ -23,6 +23,10 @@ import SamepyEco from '../assets/img/projects/SamepyEco.png';
 import SamepyEco1 from '../assets/img/projects/SamepyEco1.jpg';
 import SamepyEco2 from '../assets/img/projects/SamepyEco2.png';
 import SamepyEco3 from '../assets/img/projects/SamepyEco3.png';
+import SmartLab1 from '../assets/img/projects/SmartLab1.jpg';	
+import SmartLab2 from '../assets/img/projects/SmartLab2.jpg';
+import SmartLab3 from '../assets/img/projects/SmartLab3.jpg';
+import SmartLab4 from '../assets/img/projects/SmartLab5.jpg';
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -33,8 +37,13 @@ import { SiEspressif } from "react-icons/si";
 import { FiFigma, FiGithub, FiGlobe, FiYoutube } from 'react-icons/fi';
 import { SlSpeech } from 'react-icons/sl';
 import { BsFeather } from 'react-icons/bs';
+import { FaJava } from "react-icons/fa6";
 import { GiAbdominalArmor } from 'react-icons/gi';
 import { BiWindows } from 'react-icons/bi';
+import { SiPostgresql } from "react-icons/si";
+import { FaAws } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa6";
+import { FaUbuntu } from "react-icons/fa6";
 
 export const ProjectData = {
 	ProjectHeader: [
@@ -73,6 +82,12 @@ export const ProjectData = {
 			title: 'FIAP Autolab',
 			publishDate: '29 de Janeiro de 2025',
 			category: 'Back-end',
+		},
+		{
+			id: 7,
+			title: 'SmartLab',
+			publishDate: '10 de Novembro de 2025',
+			category: 'Internet of Things (IoT)',
 		}
 	],
 	ProjectImages: [
@@ -99,6 +114,10 @@ export const ProjectData = {
 		{
 			id: 6,
 			img: Autolab
+		},
+		{
+			id: 7,
+			img: SmartLab1
 		}
 	],
 	ProjectRelatedImages: [
@@ -137,6 +156,12 @@ export const ProjectData = {
 			img1: Autolab1,
 			img2: Autolab2,
 			img3: Autolab3
+		},
+		{
+			id: 7,
+			img1: SmartLab2,
+			img2: SmartLab3,
+			img3: SmartLab4
 		}
 	],
 	ProjectInfo: {
@@ -165,6 +190,10 @@ export const ProjectData = {
 				id: 6,
 				objective: "Interface Gráfica para executar comandos de CMD na FIAP"
 			},
+			{
+				id: 7,
+				objective: "Sistema de Monitoramento e Automação para Laboratórios"
+			}
 		],
 		Technologies: [
 			{
@@ -275,6 +304,33 @@ export const ProjectData = {
 					BiWindows
 
 				]
+			},
+			{
+				id: 7,
+				techs: [
+					"Python",
+					"ESP32",
+					"C++",
+					"React JS",
+					"Tailwind CSS",
+					"Java",
+					"PostgreSQL",
+					"AWS",
+					"Docker",
+					"Ubuntu"
+				],
+				icons: [
+					SiPython,
+					SiEspressif,
+					SiCplusplus,
+					FaReact,
+					SiTailwindcss,
+					FaJava,
+					SiPostgresql,
+					FaAws,
+					FaDocker,
+					FaUbuntu
+				]
 			}
 		],
 		ProjectDetails: [
@@ -306,6 +362,10 @@ export const ProjectData = {
 				id: 6,
 				details: 
 					"O FIAP Autolab é um software de automação criado para facilitar o dia a dia dos monitores. Através da implementação de scripts com Python e uma Interface Gráfica que utiliza a biblioteca CustomTkinter, buscamos otimizar tarefas repetitivas, melhorar a organização e aumentar a eficiência no acompanhamento e na execução de comandos do CMD comuns utilizados dentro da instituição. Este projeto foi desenvolvido para facilitar e automatizar tarefas do dia a dia dos monitores, aproveitando o poder dos scripts .bat para executar comandos do CMD de forma prática e eficiente."
+			},
+			{
+				id: 7,
+				details: "O SmartLab nasceu da nossa ideia de integrar tecnologia, automação e análise de dados para criar um ambiente inteligente e eficiente, unindo software e hardware em um ecossistema completo, capaz de realizar auditorias automatizadas nos laboratórios da Dasa. Nosso sistema permite que o profissional de saúde selecione o procedimento desejado e se autentique com o crachá, utilizando um sensor RFID conectado ao computador do almoxarifado. A partir disso, a aplicação principal envia uma solicitação ao hardware, que realiza a liberação controlada dos itens necessários para o procedimento. Todo o processo é registrado automaticamente em nosso banco de dados na nuvem (AWS), armazenando informações como: quem realizou a retirada, quais itens foram utilizados e quando eles foram retirados. Garantindo assim rastreabilidade e segurança em cada etapa!"
 			}
 		],
 		SocialSharingHeading: 'Referências:',
@@ -345,6 +405,12 @@ export const ProjectData = {
 				names: ['LinkedIn'],
 				icon: [SiLinkedin],
 				url: ['https://www.linkedin.com/posts/ryanbritodev_fiap-automaaexaeto-python-activity-7296130334331445248-u5Bf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAECnV8EBUmZSBzL-vlTdVZDdDXmU5TYyO-A'],
+			},
+			{
+				id: 7,
+				names: ["Pitch", "Website", "Demo"],
+				icon: [FiYoutube, FiGlobe, FiYoutube],
+				url: ["https://www.youtube.com/watch?v=SvSV52_iy1s", "https://smartlab-dash-vision-prod.vercel.app/dashboard", "https://www.youtube.com/watch?v=HvCSG1ChAu8"]
 			}
 		],
 	},

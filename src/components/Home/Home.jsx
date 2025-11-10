@@ -32,7 +32,7 @@ function Home() {
                     Desde que comecei a programar, <span className="text-fiap font-bold"> me apaixonei pelo universo da tecnolgia </span> e estou sempre aprendendo coisas novas, ou pelo menos tentando... 😅
                 </p>
                 <p className="font-montserrat font-medium mb-6 text-sm md:text-md lg:text-xl text-justify leading-tight">
-                    Atualmente estou aprendendo um pouco mais sobre <span className="text-fiap font-bold ">Python, Java e SQL</span>. 👨🏻‍💻
+                    Atualmente estou aprendendo um pouco mais sobre <span className="text-fiap font-bold ">Cloud Computing</span>. 👨🏻‍💻
                 </p>
                 <p className="font-montserrat font-medium text-sm md:text-md lg:text-xl text-justify leading-tight">
                     Além da <span className="text-fiap font-bold">programação</span>, adoro ouvir <span className="text-fiap font-bold">indie rock</span> e <span className="text-fiap font-bold">jogar videogame</span> nas horas vagas, o que sempre me inspira a ser criativo e focado nos projetos que estou desenvolvendo. 🤟🏻
